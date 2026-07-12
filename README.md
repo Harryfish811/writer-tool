@@ -11,7 +11,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/你的用户名/writer-tool.git
+git clone https://github.com/Harryfish811/writer-tool.git
 cd writer-tool
 pip install -e .
 ```
