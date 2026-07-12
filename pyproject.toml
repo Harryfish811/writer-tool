@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "writer-tool"
+version = "0.1.0"
+description = "✏️ 写作润色 & 错别字检查 CLI 工具"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["writing", "typo", "chinese", "cli", "polish"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.scripts]
+writer = "writer_tool.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/你的用户名/writer-tool"
